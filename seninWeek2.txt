@@ -1,0 +1,54 @@
+//nomor 1 Newton Second Law
+
+var mass = 600
+
+var acceleration = 2
+
+console.log (mass * acceleration)
+
+//nomor 2 Tahun Kabisat
+READ and SAVE "years"
+IF ("years"%4==0 AND "years"%100!=0)
+    DISPLAY ("Kabisat")
+ELSE
+    IF ("years"%400==0)
+        DISPLAY ("Kabisat")
+    ELSE
+        DISPLAY ("Tidak Kabisat")
+
+var years;
+years = prompt ("years?");
+if(years%4==0 && years%100!=0){
+  console.log('Kabisat');
+}
+else if(years%400==0){
+  console.log('Kabisat');
+}
+  else console.log('Bukan Kabisat'); 
+
+
+
+
+
+//nomor 3 Foxie Cuci Baju
+/*
+STORE "machine full level"
+WHILE "machine full level" LESS THAN 20
+    ADD "machine full level" by 1
+DISPLAY "turn on the machine" */
+
+for (var counterBaju = 0; counterBaju < 20; counterBaju++){
+  console.log ('baju', counterBaju)
+}
+
+//nomor 4
+/* 
+REPEAT inspecting all 40 kids
+    IF "nails=long" THEN
+        DO "punish"
+    ELSE
+        DO "praise"
+    ENDIF
+UNTIL all 40 kids inspected
+*/
+
