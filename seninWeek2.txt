@@ -1,10 +1,11 @@
 //nomor 1 Newton Second Law
 
-var mass = 600
-
-var acceleration = 2
-
-console.log (mass * acceleration)
+SET "mass" to 600
+SET "acceleration" to 2
+SET "force" without any value
+CALCULATE "mass" times "acceleration"
+SET "force" with calculation result
+DISPLAY "force"
 
 //nomor 2 Tahun Kabisat
 
