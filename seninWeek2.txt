@@ -7,6 +7,8 @@ var acceleration = 2
 console.log (mass * acceleration)
 
 //nomor 2 Tahun Kabisat
+
+
 READ and SAVE "years"
 IF ("years"MOD4==0 AND "years"MOD100!=0)
     DISPLAY ("Kabisat")
@@ -18,24 +20,28 @@ ELSE
 
 
 //nomor 3 Foxie Cuci Baju
-/*
+
+
+
 STORE "machine full level"
 WHILE "machine full level" LESS THAN 20
     ADD "machine full level" by 1
-DISPLAY "turn on the machine" */
+DISPLAY "turn on the machine"
 
-for (var counterBaju = 0; counterBaju < 20; counterBaju++){
-  console.log ('baju', counterBaju)
-}
 
-//nomor 4
-/* 
-REPEAT inspecting all 40 kids
+
+//nomor 4 Inspeksi Kuku
+
+
+SET "counter" with 1
+SET "jumlahSiswa" with 40
+
+REPEAT counter<=jumlahSiswa
     IF "nails=long" THEN
         DO "punish"
     ELSE
         DO "praise"
     ENDIF
-UNTIL all 40 kids inspected
-*/
+UNTIL counter=jumlahSiswa
+
 
