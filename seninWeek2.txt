@@ -8,26 +8,13 @@ console.log (mass * acceleration)
 
 //nomor 2 Tahun Kabisat
 READ and SAVE "years"
-IF ("years"%4==0 AND "years"%100!=0)
+IF ("years"MOD4==0 AND "years"MOD100!=0)
     DISPLAY ("Kabisat")
 ELSE
-    IF ("years"%400==0)
+    IF ("years"MOD400==0)
         DISPLAY ("Kabisat")
     ELSE
         DISPLAY ("Tidak Kabisat")
-
-var years;
-years = prompt ("years?");
-if(years%4==0 && years%100!=0){
-  console.log('Kabisat');
-}
-else if(years%400==0){
-  console.log('Kabisat');
-}
-  else console.log('Bukan Kabisat'); 
-
-
-
 
 
 //nomor 3 Foxie Cuci Baju
