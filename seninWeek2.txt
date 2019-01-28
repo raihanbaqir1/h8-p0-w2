@@ -38,7 +38,7 @@ SET "counter" with 1
 SET "jumlahSiswa" with 40
 
 REPEAT counter LESS OR EQUAL jumlahSiswa
-    IF "nails=long" THEN
+    IF "nails" EQUAL long THEN
         DO "punish"
     ELSE
         DO "praise"
