@@ -65,3 +65,5 @@ for(counter=1; counter < 101; counter = counter+9){
         console.log(counter+' '+'kelipatan 10');
     } 
 }
+
+
