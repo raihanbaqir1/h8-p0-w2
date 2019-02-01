@@ -1,6 +1,6 @@
 var tanggal = 8;
 var bulan = 2;
-var tahun = 2300;
+var tahun = 2200;
 
 var result= ''
 
