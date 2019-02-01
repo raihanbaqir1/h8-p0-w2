@@ -6,9 +6,10 @@ function konversiMenit(menit){
         return '00:'+'0'+menit;
     } else if(menit >=10 && menit <=59){
         return '00:'+menit;
-    } else if(menit >=60 && menit <=549){
+    } else if(menit >=60 && menit%60 <10){
         return Math.floor((menit/60))+':'+'0'+(menit%60);
-    
+    } else if(menit >=60 && menit%60 >=10){
+        return Math.floor((menit/60))+':'+(menit%60);
+    }
 }
-}
-console.log(konversiMenit(539));
+console.log(konversiMenit(88));
