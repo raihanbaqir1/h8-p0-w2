@@ -13,7 +13,7 @@ for(var j=0; j < rows2; j++){
 }
 //Menyusun Barisan Tangga Bintang dengan Nested Looping
 rows3 = 5
-// for(var j=0; j < rows3; j++){
+for(var j=0; j < rows3; j++){
    var Line = '';
     for(var i=0; i <= j; i++){
           Line = Line + '*';
@@ -21,4 +21,4 @@ rows3 = 5
           console.log(Line)     
     }
    
-// }
+}
